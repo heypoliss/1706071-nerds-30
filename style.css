@@ -1,0 +1,41 @@
+:root {
+    --neon-pink: #FB565A;
+    --neon-green: #00CA74;
+    --neon-yellow: #EFC849;
+    --basic-black: #000000;
+    --basic-grey: #eeeeee;
+    --basic-white: #ffffff;
+  }
+
+  .page-body{
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", normal;
+    background-color: var(--basic-white);
+    color: var(--basic-black);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+  }
+
+  .site-navigation {
+    list-style: none;
+  }
+ 
