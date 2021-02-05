@@ -11,7 +11,7 @@
     min-width: 960px;
     margin: 0;
     padding: 0;
-    font-family: "Roboto", normal;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--basic-white);
     color: var(--basic-black);
     font-size: 16px;
@@ -29,6 +29,8 @@
   }
 
   .main-navigation {
+    width: 1440px;
+    height: 545px;
     font-size: 16px;
     line-height: 30px;
     color: var(--basic-black);
@@ -38,4 +40,326 @@
   .site-navigation {
     list-style: none;
   }
- 
+  .site-navigation a{
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+  color: #FB565A;
+}
+
+.name{
+  font-size: 55px;
+  line-height: 55px;
+  text-align: left;
+}
+
+.math-design{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.more-info{
+  width: 240px;
+  height: 50px;
+  background-color: var(--neon-pink);
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+}
+
+.more-info:hover, 
+.more-info:focus{
+  background-color: #E74246;
+}
+
+.order-button-first{
+  width: 160px;
+  height: 50px;
+  background-color: var(--neon-pink);
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+}
+
+.order-button-first:hover, 
+.order-button-first:focus{
+  background-color: #E74246;
+}
+
+.order-button-second{
+  width: 160px;
+  height: 50px;
+  background-color: var(--neon-green);
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+}
+
+.order-button-second:hover, 
+.order-button-second:focus{
+  background-color: #00BC6C;
+}
+
+.order-button-third{
+  width: 160px;
+  height: 50px;
+  background-color: var(--neon-yellow);
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+}
+
+.order-button-third:hover, 
+.order-button-third:focus{
+  background-color: #EAB534;
+}
+
+hr{
+    width: 1158px;
+    border: none; 
+    background-color: #eeeeee; 
+    height: 2px; 
+}
+.goods-list {
+  list-style: none;
+}
+
+.goods-item {
+  text-align: center;
+}
+
+.goods-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.about-us{
+  font-size: 45px;
+  line-height: 45px;
+  text-align: left;
+}
+
+.description{
+  text-align: left;
+}
+
+.order{
+  text-transform: uppercase;
+}
+
+.order-list{
+  list-style-type: none;
+}
+
+.order-item:before{
+  width: 25px;
+  height: 2px;
+  content: "— ";
+  color: var(--neon-pink);
+}
+
+.numbers{
+  text-transform: uppercase;
+}
+
+.numbers-list{
+  list-style-type: none;
+}
+
+.numbers-item{
+  font-size: 16px;
+  line-height: 18px;
+  text-align:left;
+}
+
+.numbers-item h4{
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.write-us{
+  width: 219px;
+  height: 50px;
+  background-color: var(--neon-pink);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.full-name{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.address{
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.footer-phone{
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+  padding-top: 10px;
+}
+
+.footer-social{
+  list-style-type: none;
+}
+
+.social-button{
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+}
+
+.social-button:hover, 
+.social-button:focus{
+  background-color: #E74246;
+}
+
+.catalog-navigation {
+    width: 1440px;
+    height: 355px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+}
+
+.main-name{
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.sort{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.sort-list{
+  list-style-type: none;
+}
+
+.sort-item{
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 30%;
+  color:white;
+}
+
+.sort-item:hover,
+.sort-item:focus{
+  color: #000000;
+  opacity: 60%;
+}
+
+.price{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.grid{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.advantages{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.show{
+  width: 260px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+}
+
+.show:hover,
+.show:focus{
+  background-color: #dfdfdf;
+  color: black;
+}
+
+.price-button{
+  width: 200px;
+  height: 50px;
+  background-color: var(--neon-pink);
+  border-radius: 3px;
+  text-align: center;
+  color:white;
+}
+
+.price-button:hover, 
+.price-button:focus{
+  background-color: #E74246;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: #283136;
+}
+
+.filter-input-radio:hover + label,
+.filter-input-radio:focus + label {
+  color: #283136;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item {
+  color: #000000;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.pagination-item-current{
+  color: #000000;
+  background-color: var(--basic-white);
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #eeeeee;
+}
+
+.pagination-item-next {
+  color: #000000;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  width: 260px;
+  height: 50px;
+  padding: 10px;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #dfdfdf;
+}
