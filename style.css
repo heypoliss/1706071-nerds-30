@@ -357,6 +357,16 @@ img {
   margin-bottom: 73px;
 }
 
+.index-columns::before{
+  position: absolute;
+  width: 1158px;
+  height: 2px; 
+  content: "";
+  left: 0px;
+  top: -33px;
+  background-color: var(--basic-grey);
+}
+
 .about-us{
   font-size: 45px;
   line-height: 45px;
@@ -400,8 +410,6 @@ img {
   background-color: var(--neon-pink);
 }
 
-
-
 .numbers{
   text-transform: uppercase;
   text-align: center;
@@ -444,6 +452,26 @@ img {
   margin: 0 auto;
   margin-bottom: 112px;
   margin-top: 33px;
+}
+
+.picture-columns::before{
+  position: absolute;
+  width: 1158px;
+  height: 2px; 
+  content: "";
+  left: -35px;
+  top: -55px;
+  background-color: var(--basic-grey);
+}
+
+.picture-columns::after{
+  position: absolute;
+  width: 1158px;
+  height: 2px; 
+  content: "";
+  left: -35px;
+  top: 127px;
+  background-color: var(--basic-grey); 
 }
 
 .picture-1:hover,
