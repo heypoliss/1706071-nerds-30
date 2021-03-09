@@ -8,8 +8,8 @@
   <link rel="apple-touch-icon" href="img/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
 
-  <link href="normalize.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700;display=swap">
 
@@ -17,7 +17,7 @@
 </head>
 
 <body class="page-body">
-  <div class="header_style">
+  <div class="header-style">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -49,11 +49,11 @@
           <div class="range-filter">
             <div class="range-controls">
               <div class="scale">
-                <div class="bar" style="width: 30%; margin-left: 20%">
+                <div class="bar" style="width: 70%; margin-left: 0%">
                 </div>
               </div>
-              <div class="toggle toggle-min" tabindex="0" style="left: 20%"></div>
-              <div class="toggle toggle-max" tabindex="0" style="left: 50%"></div>
+              <div class="toggle toggle-min" tabindex="0" style="left: 7%"></div>
+              <div class="toggle toggle-max" tabindex="0" style="left: 62%"></div>
             </div>
             <div class="price-controls">
               <label class="min-price">
@@ -117,7 +117,7 @@
               <span class="check_box"></span>
               <label class="check_box_label" for="filter-cart">Корзина</label>
             </li>
-            <ul>
+          </ul>
         </fieldset>
         <a class="button show" href="#">Показать</a>
       </form>
@@ -133,8 +133,8 @@
             <li class="sort-item sort-item-current"><a href="#">По цене</a></li>
             <li class="sort-item"><a href="#">По типу</a></li>
             <li class="sort-item"><a href="#">По названию</a></li>
-            <li><img class="button_up" src="img/icon-up-2.svg" href="#" width="11" height="10" alt="Вверх"></li>
-            <li><img class="button_down" src="img/icon-down-2.svg" href="#" width="11" height="10" alt="Вниз"></li>
+            <li><img class="button_up" src="img/icon-up-2.svg" width="11" height="10" alt="Вверх"></li>
+            <li><img class="button_down" src="img/icon-down-2.svg" width="11" height="10" alt="Вниз"></li>
           </ul>
         </div>
       </div>
@@ -145,34 +145,81 @@
         <ul class="web-goods-list">
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_1.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/sedona.jpg" width="359" height="578" alt="Sedona">
-            <div class="site-name">
-              <div class="site-name-inside">
-                <span class="sedona-name"></span>SEDONA</span><br>
-                <span class="sedona-description">Информационный сайт <br> для туристов</span>
+            <div class="about">
+              <img src="img/sedona.jpg" width="359" height="578" alt="Sedona">
+              <div class="about-site-current">
+                <div class="site-name-inside">
+                  <span class="site-name">SEDONA</span>
+                  <span class="site-description">Информационный сайт <br> для туристов</span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
               </div>
-              <a class="button price-button" href="#">9 900 ₽</a>
             </div>
           </li>
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/pink.jpg" width="358" height="578" alt="Pink">
+            <div class="about">
+              <img src="img/pink.jpg" width="358" height="578" alt="Pink">
+              <div class="about-site">
+                <div class="site-name-inside">
+                  <span class="site-name">PINK</span>
+                  <span class="site-description">Продуктовый лендинг <br> приложения для iOS и Android </span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
+              </div>
+            </div>
           </li>
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/barbershop.jpg" width="358" height="578" alt="Barbershop">
+            <div class="about">
+              <img src="img/barbershop.jpg" width="358" height="578" alt="Barbershop">
+              <div class="about-site">
+                <div class="site-name-inside">
+                  <span class="site-name">BARBERSHOP</span>
+                  <span class="site-description">Сайт салона красоты. <br> Для мужчин,да. </span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
+              </div>
+            </div>
           </li>
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/mishka.jpg" width="359" height="578" alt="Mishka">
+            <div class="about">
+              <img src="img/mishka.jpg" width="359" height="578" alt="Mishka">
+              <div class="about-site">
+                <div class="site-name-inside">
+                  <span class="site-name">MISHKA</span>
+                  <span class="site-description">Интернет-магазин <br> вязаных игрушек </span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
+              </div>
+            </div>
           </li>
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/aplus.jpg" width="359" height="578" alt="APlus">
+            <div class="about">
+              <img src="img/aplus.jpg" width="359" height="578" alt="APlus">
+              <div class="about-site">
+                <div class="site-name-inside">
+                  <span class="site-name">APLUS</span>
+                  <span class="site-description">Лендинг курсов повышения <br> квалификации </span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
+              </div>
+            </div>
           </li>
           <li class="web-goods-item">
             <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
-            <img src="img/kvast.jpg" width="359" height="578" alt="Kvast">
+            <div class="about">
+              <img src="img/kvast.jpg" width="359" height="578" alt="Kvast">
+              <div class="about-site">
+                <div class="site-name-inside">
+                  <span class="site-name">KVAST</span>
+                  <span class="site-description">Промо-сайт производителя <br> крафтового кваса </span>
+                </div>
+                <a class="button price-button" href="#">9 900 ₽</a>
+              </div>
+            </div>
           </li>
         </ul>
         <ul class="pagination-list">
@@ -181,13 +228,13 @@
           <li class="pagination-item"><a href="#">3</a></li>
           <li class="pagination-item pagination-item-next"><a href="#">Следующая</a></li>
         </ul>
+      </div>
     </section>
-    </div>
   </main>
 
   <footer class="footer_style">
     <section>
-      <div class="address-card">
+      <div class="address-card-catalog">
         <div class="adress-inside">
           <h2 class="full-name">NЁRDS DESIGN STUDIO</h2>
           <p class="address">191186, Санкт-Петербург, <br>
@@ -196,9 +243,9 @@
           <a class="button write-us" href="#">Напишите нам</a>
         </div>
       </div>
-      <iframe
+      <iframe class="google_map"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872586849!2d30.320853351992756!3d59.93871648178725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1612958112644!5m2!1sru!2sru"
-        width="100%" height="416" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+        height="416" allowfullscreen="" aria-hidden="false" tabindex="0"
         title="Наш аресс: Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       </iframe>
       <img class="visual-hidden" src="img/map-marker.png" width="231" height="190" alt="А это мы">
@@ -225,16 +272,20 @@
       <button class="modal-close" type="button" aria-label="Закрыть"></button>
     </section>
 
-    <div class="footer-social">
+    <div class="footer-social-catalog">
       <section>
         <ul class="footer-list">
           <li>
-            <a class="social-button" href="#">
-              <img class="vk" src="img/vk-icon.png" width="26" height="15" alt="ВКонтакте">
+            <a class="social-button-catalog" href="#">
+              <svg class="vk" width="27" height="15" viewBox="0 0 27 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.138 11.51C17.094 11.201 18.318 13.55 19.621 14.449C20.599 15.13 21.348 14.983 21.348 14.983L24.821 14.933C24.821 14.933 26.636 14.821 25.778 13.379C25.707 13.259 25.275 12.31 23.193 10.357C21.016 8.31404 21.311 8.64504 23.932 5.11304C25.529 2.96004 26.168 1.64504 25.968 1.08504C25.776 0.546037 24.603 0.686037 24.603 0.686037L20.69 0.713037C20.309 0.714037 19.986 0.832037 19.839 1.22804C19.836 1.23204 19.218 2.89404 18.394 4.30704C16.653 7.29604 15.958 7.45504 15.67 7.26804C15.009 6.83504 15.176 5.53104 15.176 4.60404C15.176 1.70704 15.608 0.499037 14.33 0.187037C13.903 0.0830374 13.591 0.0150374 12.502 0.00503741C11.11 -0.0159626 9.92797 0.00503743 9.25797 0.334037C8.81297 0.557037 8.47197 1.04604 8.67897 1.07404C8.93897 1.10904 9.52197 1.23404 9.83397 1.66004C10.235 2.21204 10.223 3.44904 10.223 3.44904C10.223 3.44904 10.452 6.86004 9.68297 7.28304C9.15497 7.57304 8.43297 6.98104 6.87997 4.26704C6.08697 2.87904 5.48797 1.34504 5.48797 1.34504C5.48797 1.34504 5.37197 1.06004 5.16197 0.904037C4.91197 0.719037 4.56197 0.660037 4.56197 0.660037L0.84797 0.684037C0.84797 0.684037 0.28997 0.700037 0.0849697 0.946037C-0.0970303 1.16404 0.0699697 1.61404 0.0699697 1.61404C0.0699697 1.61404 2.97897 8.49504 6.27297 11.961C9.29297 15.143 12.725 14.932 12.725 14.932H14.28C14.28 14.932 14.749 14.878 14.989 14.62C15.213 14.38 15.203 13.929 15.203 13.929C15.203 13.929 15.172 11.82 16.138 11.51Z"
+                  fill="white" />
+              </svg>
             </a>
           </li>
           <li>
-            <a class="social-button" href="#">
+            <a class="social-button-catalog" href="#">
               <svg class="facebook" width="12" height="22" viewBox="0 0 12 22" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white" />
@@ -242,7 +293,7 @@
             </a>
           </li>
           <li>
-            <a class="social-button" href="#">
+            <a class="social-button-catalog" href="#">
               <svg class="instagram" width="21" height="21" viewBox="0 0 21 21" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -254,7 +305,7 @@
         </ul>
       </section>
 
-      <section class="friends-footer">
+      <section class="friends-footer-catalog">
         <h2>Давайте дружить, это выгодно!</h2>
         <p>Скидка 10% для друзей из социальный сетей. </p>
       </section>
