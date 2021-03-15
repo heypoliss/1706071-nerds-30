@@ -211,17 +211,23 @@ img {
   padding: 0 10px;
 }
 
-.menu-columns{
+.menu-columns-1{
   display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.menu-columns-2{
+  display: none;
+  grid-template-columns: 400px 1fr;
+}
+
+.menu-columns-3{
+  display: none;
   grid-template-columns: 400px 1fr;
 }
 
 .more{
   padding-top: 80px;
-}
-
-.more p{
-  font-weight: 400;
 }
 
 .circle{
@@ -249,8 +255,6 @@ img {
   right: 50%;
 }
 
-
-
 .name{
   display: inline-block;
   font-size: 55px;
@@ -258,12 +262,14 @@ img {
   text-align: left;
   margin-top: 0px;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .math-design{
   font-size: 16px;
   line-height: 24px;
   margin-top: 4px;
+  font-weight: 400;
 }
 
 .more-info{
@@ -310,6 +316,7 @@ img {
 .goods-item p {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 400;
 }
 
 .goods-item h3 {
@@ -431,9 +438,10 @@ img {
 }
 
 .order-item{
-  margin-bottom: 23px;
+  margin-bottom: 24px;
   position: relative;
   padding-left: 35px;
+  font-weight: 400;
 }
 
 .order-item::before{
@@ -488,7 +496,7 @@ sup{
 }
 
 .index_clients{
-  margin-bottom: 80px;
+  margin-bottom: 77px;
 }
 
 .picture-columns{
@@ -1008,15 +1016,6 @@ sup{
   opacity: 0.12;
 }
 
-.web-goods-item_current::before{
-  display: block;
-  content: " ";
-  background-image: url(../img/browser_1.svg);
-  width: 360px;
-  height: 40px;
-  margin-bottom: 2px;
-}
-
 .about{
   position: relative;
   width: 359px;
@@ -1508,12 +1507,14 @@ sup{
   font-size: 16px;
   line-height: 22px;
   margin-block-start: 10px;
+  font-weight: 400;
 }
 
 .friends-footer-catalog p{
   font-size: 16px;
   line-height: 22px;
   margin-block-start: 10px;
+  font-weight: 400;
 }
 
 /* Animations */
