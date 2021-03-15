@@ -17,7 +17,7 @@
 </head>
 
 <body class="page-body">
-  <div class="header-style">
+  <div class="header-style-catalog">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -25,13 +25,13 @@
         </a>
         <div class="main-navigation-wrapper">
           <ul class="site-navigation">
-            <li class="site-navigation-item"><a href="blank.html">Студия</a></li>
-            <li class="site-navigation-item"><a href="blank.html">Клиенты</a></li>
+            <li class="site-navigation-item"><a href="#">Студия</a></li>
+            <li class="site-navigation-item"><a href="#">Клиенты</a></li>
             <li class="site-navigation-item site-navigation-current"><a href="catalog.html">Магазин</a></li>
-            <li class="site-navigation-item"><a href="blank.html">Контакты</a></li>
+            <li class="site-navigation-item"><a href="#">Контакты</a></li>
           </ul>
           <div class="user-navigation">
-            <a class="cart-link cart-label" href="blank.html">Корзина</a>
+            <a class="cart-link cart-label" href="#">Корзина</a>
           </div>
         </div>
       </nav>
@@ -57,10 +57,10 @@
             </div>
             <div class="price-controls">
               <label class="min-price">
-                от <input type="number" name="min-price" value="0">
+                от <input class="price-filter" type="number" name="min-price" value="0">
               </label>
               <label class="max-price">
-                до <input type="number" name="max-price" value="15000">
+                до <input class="price-filter" type="number" name="max-price" value="15000">
               </label>
             </div>
           </div>
@@ -133,8 +133,20 @@
             <li class="sort-item sort-item-current"><a href="#">По цене</a></li>
             <li class="sort-item"><a href="#">По типу</a></li>
             <li class="sort-item"><a href="#">По названию</a></li>
-            <li><img class="button_up" src="img/icon-up-2.svg" width="11" height="10" alt="Вверх"></li>
-            <li><img class="button_down" src="img/icon-down-2.svg" width="11" height="10" alt="Вниз"></li>
+            <li>
+              <svg class="button_down" width="11" height="10" viewBox="0 0 11 10" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5 10L0 0H11" fill="#231F20" />
+              </svg>
+            </li>
+            <li>
+              <svg class="button_up" width="11" height="10" viewBox="0 0 11 10" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.2">
+                  <path d="M5.5 0L0 10H11L5.5 0Z" fill="#A6A6A6" />
+                </g>
+              </svg>
+            </li>
           </ul>
         </div>
       </div>
@@ -143,8 +155,7 @@
         <!--<section class="web-goods">-->
         <h2 class="visual-hidden">Товары</h2>
         <ul class="web-goods-list">
-          <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_1.svg" width="360" height="40" alt="Дизайн браузера">
+          <li class="web-goods-item_current">
             <div class="about">
               <img src="img/sedona.jpg" width="359" height="578" alt="Sedona">
               <div class="about-site-current">
@@ -157,7 +168,6 @@
             </div>
           </li>
           <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
             <div class="about">
               <img src="img/pink.jpg" width="358" height="578" alt="Pink">
               <div class="about-site">
@@ -170,7 +180,6 @@
             </div>
           </li>
           <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
             <div class="about">
               <img src="img/barbershop.jpg" width="358" height="578" alt="Barbershop">
               <div class="about-site">
@@ -183,7 +192,6 @@
             </div>
           </li>
           <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
             <div class="about">
               <img src="img/mishka.jpg" width="359" height="578" alt="Mishka">
               <div class="about-site">
@@ -196,7 +204,6 @@
             </div>
           </li>
           <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
             <div class="about">
               <img src="img/aplus.jpg" width="359" height="578" alt="APlus">
               <div class="about-site">
@@ -209,7 +216,6 @@
             </div>
           </li>
           <li class="web-goods-item">
-            <img class="browser-style" src="img/browser_2.svg" width="360" height="40" alt="Дизайн браузера">
             <div class="about">
               <img src="img/kvast.jpg" width="359" height="578" alt="Kvast">
               <div class="about-site">
@@ -307,7 +313,7 @@
 
       <section class="friends-footer-catalog">
         <h2>Давайте дружить, это выгодно!</h2>
-        <p>Скидка 10% для друзей из социальный сетей. </p>
+        <p>Скидка 10% для друзей из социальных сетей. </p>
       </section>
     </div>
   </footer>
