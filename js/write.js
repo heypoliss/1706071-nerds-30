@@ -1,6 +1,6 @@
 const writeLink = document.querySelector(".write-us");
 const writePopup = document.querySelector(".modal");
-console.log(writePopup);
+/*console.log(writePopup);*/
 const writeClose = writePopup.querySelector(".modal-close");
 const writeForm = writePopup.querySelector(".text-form");
 const writeName = writePopup.querySelector(".yourname");
